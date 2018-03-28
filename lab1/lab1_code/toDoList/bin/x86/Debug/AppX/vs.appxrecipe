@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>4dbf8c47-db9c-43d8-ab56-b6eb60c7a7dc</PackageIdentityName>
     <PackageIdentityPublisher>CN=unddd</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\zx279\Desktop\新建文件夹\toDoList\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub\MOSAD\lab1\lab1_code\toDoList\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\zx279\Desktop\新建文件夹\toDoList\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\GitHub\MOSAD\lab1\lab1_code\toDoList\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>2B635442053A49B11C834FE1F2609E3CDAE6117ACEB84A9FB19FE001FC72AE72</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4dbf8c47-db9c-43d8-ab56-b6eb60c7a7dc_1.0.0.0_x86__jbvtn3tkppn70</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4dbf8c47-db9c-43d8-ab56-b6eb60c7a7dc_jbvtn3tkppn70!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T04:30:42.112</Modified>
+      <Modified>2018-03-28T04:56:10.444</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\bin\x86\Debug\toDoList.exe">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\bin\x86\Debug\toDoList.exe">
       <PackagePath>entrypoint\toDoList.exe</PackagePath>
-      <Modified>2018-03-28T04:30:40.134</Modified>
+      <Modified>2018-03-28T04:56:08.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zx279\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,68 +495,68 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\background.jpg">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
-      <Modified>2018-03-21T05:14:24.757</Modified>
+      <Modified>2018-03-21T05:14:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\timg.jpg">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\timg.jpg">
       <PackagePath>Assets\timg.jpg</PackagePath>
-      <Modified>2018-03-16T06:42:08.510</Modified>
+      <Modified>2018-03-16T06:42:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-03-09T15:45:35.034</Modified>
+      <Modified>2018-03-09T15:45:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-09T05:08:48.877</Modified>
+      <Modified>2018-03-09T05:08:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\bin\x86\Debug\toDoList.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\bin\x86\Debug\toDoList.xr.xml">
       <PackagePath>toDoList.xr.xml</PackagePath>
-      <Modified>2018-03-27T12:13:20.206</Modified>
+      <Modified>2018-03-27T12:13:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-03-11T15:58:13.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-28T04:30:41.684</Modified>
+      <Modified>2018-03-28T04:56:10.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\zx279\Desktop\新建文件夹\toDoList\bin\x86\Debug\Core\toDoList.exe">
+    <AppxPackagedFile Include="D:\GitHub\MOSAD\lab1\lab1_code\toDoList\bin\x86\Debug\Core\toDoList.exe">
       <PackagePath>toDoList.exe</PackagePath>
-      <Modified>2018-03-28T04:30:42.101</Modified>
+      <Modified>2018-03-28T04:56:10.444</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

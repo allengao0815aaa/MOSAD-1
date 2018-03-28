@@ -25736,11 +25736,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vsProject\\toDoList\\toDoList\\toDoList.csproj",
+      "projectUniqueName": "D:\\GitHub\\MOSAD\\lab1\\lab1_code\\toDoList\\toDoList.csproj",
       "projectName": "toDoList",
-      "projectPath": "D:\\vsProject\\toDoList\\toDoList\\toDoList.csproj",
+      "projectPath": "D:\\GitHub\\MOSAD\\lab1\\lab1_code\\toDoList\\toDoList.csproj",
       "packagesPath": "C:\\Users\\zx279\\.nuget\\packages\\",
-      "outputPath": "D:\\vsProject\\toDoList\\toDoList\\obj\\",
+      "outputPath": "D:\\GitHub\\MOSAD\\lab1\\lab1_code\\toDoList\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
