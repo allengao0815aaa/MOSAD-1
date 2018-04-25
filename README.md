@@ -3,6 +3,8 @@
 现操作业
 
 ## Lab1 ToDo List
+using SQLite.
 
-![result](lab1/result.gif)
-![feature](lab1/features.gif)
+![demo1](ToDoList/gif/1.gif)
+![demo2](ToDoList/gif/2.gif)
+![demo3](ToDoList/gif/3.gif)
