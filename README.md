@@ -5,6 +5,6 @@
 ## Lab1 ToDo List
 using SQLite.
 
-![demo1](ToDoList/gif/1.gif)
-![demo2](ToDoList/gif/2.gif)
-![demo3](ToDoList/gif/3.gif)
+![demo1](toDoList/gif/1.gif)
+![demo2](toDoList/gif/2.gif)
+![demo3](toDoList/gif/3.gif)
