@@ -5,6 +5,17 @@
 ## Lab1 ToDo List
 using SQLite.
 
-![demo1](toDoList/gif/1.gif)
-![demo2](toDoList/gif/2.gif)
-![demo3](toDoList/gif/3.gif)
+![sample1](toDoList/gif/2.gif)
+![sample2](toDoList/gif/3.gif)
+
+## Lab2 HTTPRequest（Explore）
+
+水
+
+![sample1](Explore/screenshot/1.png)
+
+## 音乐播放器（Muyer）
+
+水
+
+![sample1](Muyer/gif/sample.gif)

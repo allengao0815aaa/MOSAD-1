@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="Explore.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Explore"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="1*"/>
+			<RowDefinition Height="5*"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Explore" HorizontalAlignment="Center" VerticalAlignment="Center"
+				   FontSize="50"/>
+
+		<StackPanel x:Name="HistoryToday" Grid.Column="0" Grid.Row="1" KeyDown="EnterDown">
+			<TextBlock x:Name="HT_Title" HorizontalAlignment="Center" Margin="10"
+					   Text="历史上的今天" FontSize="30"/>
+			<CalendarDatePicker x:Name="DatePicker" HorizontalAlignment="Center" Margin="10" Date="{x:Bind Today}"/>
+			<StackPanel HorizontalAlignment="Center">
+				<RadioButton x:Name="country" Content="国内国际大事件"/>
+				<RadioButton x:Name="culture" Content="民间事件包含部分国家大事件"/>
+			</StackPanel>
+			<Button x:Name="HT_Button" HorizontalAlignment="Center" Content="查询" FontSize="20" Margin="10" Width="100" Click="HT_Button_Click"/>
+			<TextBlock x:Name="HT_Result" HorizontalAlignment="Center" FontSize="20" TextWrapping="Wrap"/>
+		</StackPanel>
+
+		<StackPanel x:Name="IPSearch" Grid.Column="1" Grid.Row="1" KeyDown="EnterDown">
+			<TextBlock x:Name="IP_Title" HorizontalAlignment="Center" Margin="10"
+					   Text="IP地址查询" FontSize="30"/>
+			<RelativePanel HorizontalAlignment="Center" Width="250">
+				<TextBox x:Name="IP_Input" RelativePanel.AlignHorizontalCenterWithPanel="True" Width="170" TextChanged="IP_Input_TextChanged" />
+				<Image x:Name="status" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Source="Assets/sign-check-icon.png" Height="28" Visibility="Collapsed"/>
+			</RelativePanel>
+			<Button x:Name="IP_Button" HorizontalAlignment="Center" Content="查询" FontSize="20" Margin="10" Width="100" Click="IP_Button_Click"/>
+			<TextBlock x:Name="IP_Result" HorizontalAlignment="Center" FontSize="20" TextWrapping="Wrap"/>
+		</StackPanel>
+	</Grid>
+</Page>
