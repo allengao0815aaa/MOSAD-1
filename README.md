@@ -19,3 +19,16 @@ using SQLite.
 水
 
 ![sample1](Muyer/gif/sample.gif)
+
+## PasswordBox
+
+项目地址：[PasswordBox](https://github.com/huangyt39/UWP-midterm)
+
+![1](./password/screenshot/1.png)
+
+彩蛋：
+
+![3](./password/screenshot/3.png)
+
+
+

@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="PasswordBox.NewOrUpdate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PasswordBox"
+    xmlns:c="using:PasswordBox.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <UserControl.Resources>
+        <c:ByteConverter x:Key="ByteConverter"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.Background>
+			<ImageBrush Stretch="UniformToFill" ImageSource="Assets/bg.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <RelativePanel BorderThickness="0,0,0,1" BorderBrush="Black" Height="41" Width="435" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Image Source="Assets/new.png" Height="40"/>
+        </RelativePanel>
+        <StackPanel Grid.Row="2" Width="330" Height="450" BorderBrush="DimGray" BorderThickness="2,2,2,2" >
+            <Canvas Height="40" Background="Gray">
+                <TextBlock Height="40" FontFamily="Segoe MDL2 Assets" Text="&#xE8EC;" Margin="10,5,0,0" FontSize="28" />
+            </Canvas>
+            <Image Name="img" Source="{x:Bind item.Img, Mode=OneWay, Converter={StaticResource ByteConverter}}" Height="100" Width="100" Margin="0,20,0,0"/>
+            <AppBarButton Icon="Pictures" Height="40" Width="30" HorizontalAlignment="Right" Margin="0,0,80,0" Click="SelectPicture"></AppBarButton>
+            <Grid Width="333" Height="160" Margin="0,10,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="5" />
+                    <ColumnDefinition Width="180" />
+                    <ColumnDefinition Width="42" />
+                </Grid.ColumnDefinitions>
+				<TextBlock Grid.Column="0" Grid.Row="0"  Height="30" FontSize="17" Text="名称：" HorizontalAlignment="Right" />
+				<TextBlock Grid.Column="0" Grid.Row="1"  Height="30" FontSize="17" Text="网址(可选)：" HorizontalAlignment="Right"/>
+				<TextBlock Grid.Column="0" Grid.Row="2"  Height="30" FontSize="17" Text="账号：" HorizontalAlignment="Right" />
+				<TextBlock Grid.Column="0" Grid.Row="3" Height="30" FontSize="17" Text="密码：" HorizontalAlignment="Right" />
+				<TextBox Name="title" Grid.Column="2" Grid.Row="0" Height="30" Width="180" TextWrapping="Wrap" Text="{x:Bind item.Title, Mode=TwoWay}"/>
+				<TextBox Name="website" Grid.Column="2" Grid.Row="1" Height="30" Width="180" TextWrapping="Wrap" Text="{x:Bind item.Urlstr, Mode=TwoWay}"/>
+				<TextBox Name="account" Grid.Column="2" Grid.Row="2" Height="30" Width="180" TextWrapping="Wrap" Text="{x:Bind item.Account, Mode=TwoWay}"/>
+				<PasswordBox Name="password" Grid.Column="2" Grid.Row="3" Height="30" Width="180" Password="{x:Bind item.Password, Mode=TwoWay}" KeyDown="Enter_KeyDown"/>
+                <AppBarButton  Grid.Column="3" Grid.Row="1" FontSize="20" FontFamily="Segoe MDL2 Assets" Content="&#xE774;" HorizontalContentAlignment="Left"  Height="38"  Width="35" Click="GetWebsitePicture" />
+            </Grid>
+            <RelativePanel Margin="0,20,0,0">
+                <Button Height="36" Width="120" Name="Save" Content="保存" Margin="180,0,0,0" Click="SaveContent"/>
+                <Button Height="36" Width="120" Name="AutoPassword" Content="自动生成密码" Margin="20,0,0,0" Click="GeneratePassword"/>
+            </RelativePanel>
+        </StackPanel>
+    </Grid>
+</Page>
